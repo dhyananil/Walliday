@@ -44,6 +44,8 @@ Edit `index.js`:
 ```batch
 2 | cd /d "path-to-your-index.js"
 ```
+-   Correct: "C:\Users\\\<username>\Walliday"
+-   Not Correct: "C:\Users\\\<username>\Walliday\index.js"
 
 > The batch file is used so it can be converted into an EXE without a console window.
 
@@ -52,10 +54,11 @@ Edit `index.js`:
 ### 4. Convert Batch → EXE
 
 Recommended tool: https://github.com/tokyoneon/B2E
+Recommended Setting: Windows (Invisible)
 
 ---
 
-### 5. Move all the files to Startup Folder
+### 5. Move the EXE to Startup Folder
 
 ```text
 C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
@@ -65,17 +68,6 @@ Or run:
 
 ```
 shell:startup
-```
-
-Your startup folder should look like this:
-```
-    └── Startup/
-        ├── wallies/
-        │   └── wallyYYYY-MM-DD.jpg
-        ├── database.txt
-        ├── index.js
-        ├── run.bat
-        └── Walliday.exe
 ```
 
 ---
