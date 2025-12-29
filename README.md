@@ -55,7 +55,7 @@ Recommended tool: https://github.com/tokyoneon/B2E
 
 ---
 
-### 5. Move EXE to Startup Folder
+### 5. Move all the files to Startup Folder
 
 ```text
 C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
@@ -65,6 +65,17 @@ Or run:
 
 ```
 shell:startup
+```
+
+Your startup folder should look like this:
+```
+    └── Startup/
+        ├── wallies/
+        │   └── wallyYYYY-MM-DD.jpg
+        ├── database.txt
+        ├── index.js
+        ├── run.bat
+        └── Walliday.exe
 ```
 
 ---
