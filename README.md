@@ -41,6 +41,8 @@ Edit `index.js`:
 
 ### 3. Update the full Batch File Path
 
+Edit `run.bat`:
+
 ```batch
 2 | cd /d "path-to-your-index.js"
 ```
@@ -53,8 +55,8 @@ Edit `index.js`:
 
 ### 4. Convert Batch → EXE
 
-Recommended tool: https://github.com/tokyoneon/B2E
-Recommended Setting: Windows (Invisible)
+-   Recommended tool: https://github.com/tokyoneon/B2E
+-   Recommended Setting: Windows (Invisible)
 
 ---
 
