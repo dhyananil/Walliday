@@ -1,10 +1,10 @@
 # Walliday
 
-⚠️ **Disclaimer:** This project was built as a personal experiment and works reliably only on my device configuration. It may not work the same way on other systems — use at your own risk.
+⚠️ **Disclaimer:** This project was built as a personal experiment and works reliably only on my device configuration. It may not work the same way on other systems - use at your own risk.
 
 Walliday is a Node.js project that fetches a new random landscape wallpaper daily from the Unsplash Developer API and sets it as the Windows desktop background. I built this project because I wanted a wallpaper app that reliably changes the wallpaper on boot. The project was created through vibe-coding and ChatGPT, and while it mainly works on my setup, the code is shared so others can study, modify, or build their own version.
 
-After finishing the project, I realized it only runs reliably on my machine because I didn’t bundle the EXE for other platforms — which was outside the original scope. Some decisions (like the batch-file approach) may seem unusual, but they worked for my workflow.
+After finishing the project, I realized it only runs reliably on my machine because I didn’t bundle the EXE for other platforms - which was outside the original scope. Some decisions (like the batch-file approach) may seem unusual, but they worked for my workflow.
 
 ---
 
