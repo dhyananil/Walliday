@@ -45,7 +45,7 @@ Edit `index.js`:
 2 | cd /d "path-to-your-index.js"
 ```
 -   Correct: "C:\Users\\\<username>\Walliday"
--   Not Correct: "C:\Users\\\<username>\Walliday\index.js"
+-   Not Correct: "C:\Users\\\<username>\Walliday<del>\index.js</del>"
 
 > The batch file is used so it can be converted into an EXE without a console window.
 
